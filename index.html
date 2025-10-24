@@ -3,150 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pipely Consulting</title>
+  <title>Pipely – Premium Consulting</title>
   <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Header Navigation -->
+  <!-- NAVBAR -->
   <header class="navbar">
-    <div class="logo">Pipely</div>
-    <nav class="nav-links">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-      <a href="#blog">Pages</a>
-    </nav>
-    <a href="#contact" class="btn yellow">Contact</a>
+    <div class="container">
+      <div class="nav-content">
+        <div class="logo">Pipely</div>
+        <nav class="nav-menu">
+          <a href="#">HOME <span class="version">V.1</span></a>
+          <a href="#">ABOUT <span class="version">V.1</span></a>
+          <a href="#">CONTACT <span class="version">V.1</span></a>
+          <a href="#">PAGES ▼</a>
+        </nav>
+        <a href="#" class="btn btn-lime">CONTACT</a>
+      </div>
+    </div>
   </header>
 
-  <!-- Hero Section -->
-  <section id="home" class="section hero">
-    <div class="hero-content">
-      <h1>Expert insights. <br />Custom solutions.</h1>
-      <p>Easily adapt to changes and scale your operations with our flexible infrastructure, designed to support your business.</p>
-      <div class="hero-buttons">
-        <a href="#" class="btn yellow">Book a Call</a>
-        <a href="#" class="btn outline">Our Work</a>
-      </div>
-      <div class="trust-badge">
-        <img src="https://via.placeholder.com/30" class="avatar" />
-        <img src="https://via.placeholder.com/30" class="avatar" />
-        <img src="https://via.placeholder.com/30" class="avatar" />
-        <span>100+ people already joined the Advisora</span>
-      </div>
-    </div>
-    <div class="hero-image">
-      <img src="https://via.placeholder.com/500x400" alt="Consultant working"/>
-    </div>
-  </section>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-card">
+        <div class="hero-grid">
+          <!-- LEFT CONTENT -->
+          <div class="hero-text">
+            <h1>
+              Expert insights.<br/>
+              Custom solutions.
+            </h1>
+            <p>Easily adapt to changes and scale your operations with our flexible infrastructure, designed to support your business.</p>
+            <div class="hero-buttons">
+              <a href="#" class="btn btn-lime">BOOK A CALL</a>
+              <a href="#" class="btn btn-ghost">OUR WORK</a>
+            </div>
+            <div class="social-proof">
+              <div class="avatars">
+                <img src="https://via.placeholder.com/40" alt="user1" />
+                <img src="https://via.placeholder.com/40" alt="user2" />
+                <img src="https://via.placeholder.com/40" alt="user3" />
+                <div class="avatar-badge">100+</div>
+              </div>
+              <p class="social-text">100+ people already joined the Advisora</p>
+            </div>
+          </div>
 
-  <!-- Services Tabs -->
-  <section class="section services">
-    <div class="tabs">
-      <button class="tab active" data-tab="strategy">Strategy Development</button>
-      <button class="tab" data-tab="finance">Financial Consulting</button>
-      <button class="tab" data-tab="tech">Technology Solutions</button>
-      <button class="tab" data-tab="risk">Risk Management</button>
-    </div>
-
-    <div class="tab-content active" id="strategy">
-      <div class="service-image"><img src="https://via.placeholder.com/400" /></div>
-      <div class="service-text">
-        <h2>Strategy development</h2>
-        <p>Crafting actionable strategies to achieve your goals tailored plans for sustainable growth and long-term success.</p>
-        <a href="#" class="btn dark">Learn more</a>
-      </div>
-    </div>
-
-    <div class="tab-content" id="finance">
-      <div class="service-image"><img src="https://via.placeholder.com/400" /></div>
-      <div class="service-text">
-        <h2>Financial consulting</h2>
-        <p>Crafting actionable strategies to achieve your goals tailored plans for sustainable growth and long-term success.</p>
-        <a href="#" class="btn dark">Learn more</a>
-      </div>
-    </div>
-
-    <div class="tab-content" id="tech">
-      <div class="service-image"><img src="https://via.placeholder.com/400" /></div>
-      <div class="service-text">
-        <h2>Technology solutions</h2>
-        <p>Crafting actionable strategies to achieve your goals tailored plans for sustainable growth and long-term success.</p>
-        <a href="#" class="btn dark">Learn more</a>
-      </div>
-    </div>
-
-    <div class="tab-content" id="risk">
-      <div class="service-image"><img src="https://via.placeholder.com/400" /></div>
-      <div class="service-text">
-        <h2>Risk Management</h2>
-        <p>Crafting actionable strategies to achieve your goals tailored plans for sustainable growth and long-term success.</p>
-        <a href="#" class="btn dark">Learn more</a>
+          <!-- RIGHT IMAGE -->
+          <div class="hero-image">
+            <img src="https://via.placeholder.com/500x400" alt="Consultant working" />
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- About / Stats -->
-  <section class="section stats" id="about">
-    <h2>With over a decade of experience,<br/>we deliver tailored solutions that empower your business to grow.</h2>
-    <div class="cards">
-      <div class="card"><h3>95%</h3><p>Complete Customer Satisfaction</p></div>
-      <div class="card"><h3>10+</h3><p>Innovation and Valuable Insight</p></div>
-      <div class="card"><h3>$10m</h3><p>Highly Efficient Financial Strategies</p></div>
-    </div>
-  </section>
-
-  <!-- Testimonial -->
-  <section class="section testimonial">
-    <div class="testimonial-box">
-      <div class="client-photo">
-        <img src="https://via.placeholder.com/100" />
-        <p>Isabella Tran<br/><span>Director of Ops, NovaCore</span></p>
-      </div>
-      <div class="quote">
-        "They brought clarity to complex problems, breaking down barriers and delivering innovative solutions. I was truly impressed by how quickly their strategies turned into real, tangible outcomes."
-      </div>
-    </div>
-  </section>
-
-  <!-- Blog -->
-  <section class="section blog" id="blog">
-    <h2>Latest insights and trends</h2>
-    <div class="blog-cards">
-      <div class="blog-card">
-        <img src="https://via.placeholder.com/300x200" />
-        <span class="tag">Insights</span>
-        <h3>Designing Employee Cultures</h3>
-        <p>Explore how putting employees at the center of your company culture drives success and loyalty.</p>
-      </div>
-      <div class="blog-card">
-        <img src="https://via.placeholder.com/300x200" />
-        <span class="tag">News</span>
-        <h3>Leading Hybrid Teams Well</h3>
-        <p>Learn how to successfully manage a workforce that blends in-office and remote collaboration.</p>
-      </div>
-      <div class="blog-card">
-        <img src="https://via.placeholder.com/300x200" />
-        <span class="tag">Insights</span>
-        <h3>Workflows for Efficiency</h3>
-        <p>Discover how automation streamlines daily operations and boosts workplace productivity.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="section cta" id="contact">
-    <div class="cta-text">
-      <h2>Ready to elevate your business?</h2>
-      <p>Partner with us to take your digital presence to the next level.</p>
-      <a href="#" class="btn dark">Get Started</a>
-    </div>
-    <div class="cta-image">
-      <img src="https://via.placeholder.com/400x300" />
-    </div>
-  </section>
-
-  <script src="script.js"></script>
 </body>
 </html>
