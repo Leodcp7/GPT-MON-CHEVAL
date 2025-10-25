@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pipely – Premium Consulting</title>
+  <title>Pipely – Consulting Premium</title>
   <link rel="stylesheet" href="style.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -13,7 +13,10 @@
   <header class="navbar">
     <div class="container">
       <div class="nav-content">
-        <div class="logo">Pipely</div>
+        <div class="logo">
+          <img src="./assets/logoipsum.svg" alt="Logo" class="logo-icon">
+          <span>Pipely</span>
+        </div>
         <nav class="nav-menu">
           <a href="#">HOME <span class="version">V.1</span></a>
           <a href="#">ABOUT <span class="version">V.1</span></a>
@@ -30,32 +33,62 @@
     <div class="container">
       <div class="hero-card">
         <div class="hero-grid">
-          <!-- LEFT CONTENT -->
-          <div class="hero-text">
-            <h1>
-              Expert insights.<br/>
-              Custom solutions.
-            </h1>
+          
+          <!-- LEFT -->
+          <div class="hero-content">
+            <h1>Expert insights.<br/>Custom solutions.</h1>
             <p>Easily adapt to changes and scale your operations with our flexible infrastructure, designed to support your business.</p>
-            <div class="hero-buttons">
-              <a href="#" class="btn btn-lime">BOOK A CALL</a>
-              <a href="#" class="btn btn-ghost">OUR WORK</a>
+            <div class="hero-cta">
+              <a href="#" class="btn btn-lime">Book a call</a>
+              <a href="#" class="btn btn-outline">Our work</a>
             </div>
-            <div class="social-proof">
+            <div class="hero-social">
               <div class="avatars">
-                <img src="https://via.placeholder.com/40" alt="user1" />
-                <img src="https://via.placeholder.com/40" alt="user2" />
-                <img src="https://via.placeholder.com/40" alt="user3" />
-                <div class="avatar-badge">100+</div>
+                <img src="./assets/user1.jpg" alt="user1" />
+                <img src="./assets/user2.jpg" alt="user2" />
+                <img src="./assets/user3.jpg" alt="user3" />
+                <img src="./assets/user4.jpg" alt="user4" />
+                <div class="avatar-badge">10K+</div>
               </div>
-              <p class="social-text">100+ people already joined the Advisora</p>
+              <p>100+ consultants trust Pipely.</p>
             </div>
           </div>
 
-          <!-- RIGHT IMAGE -->
+          <!-- RIGHT -->
           <div class="hero-image">
-            <img src="https://via.placeholder.com/500x400" alt="Consultant working" />
+            <img src="./assets/consultant.jpg" alt="Consultant working" />
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS SECTION -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-header">
+        <h4>Pipely Consulting</h4>
+        <h2>With over a decade of experience, we deliver tailored solutions that empower your business to grow.</h2>
+        <div class="logos">
+          <img src="./assets/logoipsum.svg" alt="logo1">
+          <img src="./assets/logoipsum.svg" alt="logo2">
+          <img src="./assets/logoipsum.svg" alt="logo3">
+          <img src="./assets/logoipsum.svg" alt="logo4">
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <h3>95%</h3>
+          <p>Complete customer satisfaction</p>
+        </div>
+        <div class="card">
+          <h3>10+</h3>
+          <p>Innovation and valuable insight</p>
+        </div>
+        <div class="card">
+          <h3>$10m</h3>
+          <p>Highly efficient financial strategies</p>
         </div>
       </div>
     </div>
